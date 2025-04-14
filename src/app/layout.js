@@ -24,6 +24,15 @@ export default function RootLayout({ children }) {
       >
         {children}
       </body>
+      <head>
+      <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          integrity="sha512-dkY6W7K+mzUSzi0OlLbvzjP7fUpuHgALZstR9pH+vqZ0PNExuYzFzR4O8f2h1xOm3ceG6Y2NdeHE7GyBqK+9BA=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
+      </head>
     </html>
   );
 }
